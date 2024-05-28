@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS - Responsive</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+
+        .container {
+            max-width: 1110px;
+            margin: 0 auto;
+            display: flex;
+        }
+
+        .box {
+            border: 1px solid black;
+            background: #a7a7a7;
+            padding: 10px;
+            width: 25%;
+        }
+
+        /* tablet */
+        @media(max-width:768) {
+            .box {
+                width: 50%;
+            }
+        }
+
+        /* mobile */
+        @media(max-width:500) {
+            .box {
+                width: 100%;
+            }
+        }
+
+        /* body {
+            background: #a7a7a7;
+        }
+
+        @media(max-width: 768px) {
+            body {
+                background: blue;
+            }
+        }
+
+        @media(max-width:500px) {
+            body {
+                background: greenyellow;
+            }
+        } */
+        /* p{
+        display: none;
+       }
+       @media(min-width:768px){
+        p{
+            display: block;
+        }
+       } */
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <h1>Article</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis, mollitia.</p>
+        </div>
+        <div class="box">
+            <h1>Article</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis, mollitia.</p>
+        </div>
+        <div class="box">
+            <h1>Article</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis, mollitia.</p>
+        </div>
+        <div class="box">
+            <h1>Article</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis, mollitia.</p>
+        </div>
+    </div>
+    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, ducimus.</p> -->
+</body>
+
+</html>

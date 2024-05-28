@@ -1,0 +1,82 @@
+/* Text */
+
+.text-center {
+   text-align: center; 
+}
+
+.heading-small{
+    font-size: 1.25rem;
+}
+
+.heading-medium{
+    font-size: 1.5rem;
+}
+
+.heading-big{
+    font: size 1.75rem; ;
+}
+
+/* Colors*/
+
+.bg-dark-blue{
+    background: #89375F;
+}
+
+.bg-light-blue{
+    background: #CE5959;
+}
+
+/* Buttons */
+.btn{
+    margin-top: 1.25rem;
+   
+    padding: 0.8rem 3rem;
+    border-radius: 7px;
+    letter-spacing: 0.5;
+}
+
+.btn-primary{
+    background: #CE5959;
+}
+.btn-primary:hover{
+    color:#CE5959;
+    background: #fff;
+    border: 0.5px solid #CE5959;
+}
+.btn-dark{
+    background: #89375F;
+}
+.btn-dark:hover{
+    color:#89375F;
+    background: #fff;
+    border: 0.5px solid #89375F;
+}
+
+.btn-block{
+    width: 100%;
+    text-align: center;
+}
+
+/* Forms */
+.form-group{
+    padding: 0.25rem 0;
+
+}
+
+.form-group label {
+    display: block;
+}
+.form-control{
+    width: 100%;
+    padding: 0.4rem;
+    font-size: 1rem;
+    resize: none;
+    border-radius: 5px;
+}
+
+/* Container*/
+
+.container{
+    max-width: 1110px;
+    margin: 0 auto;
+}
